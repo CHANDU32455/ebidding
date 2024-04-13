@@ -1,0 +1,192 @@
+/* CSS for Header */
+header {
+    background-color: #333; /* Background color for the header */
+    color: #fff; /* Text color for the header */
+    padding: 20px 0; /* Padding for top and bottom */
+    text-align: center; /* Aligning text to the center */
+  }
+  
+  /* CSS for Logo */
+  header h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 24px; /* Font size for the logo */
+  }
+  
+  /* CSS for Navigation */
+  nav {
+    margin-top: 10px; /* Margin from the top */
+  }
+  
+  nav a {
+    color: #fff; /* Text color for navigation links */
+    text-decoration: none; /* Remove underline */
+    margin: 0 10px; /* Margin between navigation links */
+    padding: 5px 10px; /* Padding for navigation links */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+  }
+  
+  nav a:hover {
+    background-color: #555; /* Background color on hover */
+  }
+  
+  /*==============================================================================================*/
+  /* CSS for Search Bar */
+  .searchBox {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    background: #2f3640;
+    border-radius: 50px;
+    position: relative;
+  }
+  
+  .searchButton {
+    color: white;
+    position: absolute;
+    right: 8px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--gradient-2, linear-gradient(90deg, #2AF598 0%, #009EFD 100%));
+    border: 0;
+    display: inline-block;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  }
+  /*hover effect*/
+  button:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px;
+    transform: translateY(-3px);
+  }
+  /*button pressing effect*/
+  button:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+  
+  .searchInput {
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    padding: 24px 46px 24px 26px;
+  }
+  /*==============================================================================================*/
+    /* CSS for Card */
+  
+    .card {
+        padding: 10px;
+        margin: 5px;
+        border: 1px solid black;
+        position: relative;
+        width: 300px;
+        height: 400px;
+        background-color: #f2f2f2;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        perspective: 1000px;
+        box-shadow: 0 0 0 5px #ffffff80;
+        transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      }
+      .card svg {
+        width: 48px;
+        fill: #333;
+        transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      }
+      
+      .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+      }
+      
+      .card__content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        background-color: #f2f2f2;
+        transform: rotateX(-90deg);
+        transform-origin: bottom;
+        transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      }
+      
+      .card:hover .card__content {
+        transform: rotateX(0deg);
+      }
+      
+      .card__title {
+        margin: 0;
+        font-size: 24px;
+        color: #333;
+        font-weight: 700;
+      }
+      
+      .card:hover svg {
+        scale: 0;
+      }
+      
+      .card__description {
+        margin: 10px 0 0;
+        font-size: 14px;
+        color: #777;
+        line-height: 1.4;
+      }
+      
+      .card-image {
+        max-width: auto;
+        height: 100%; /* This ensures the image's height adjusts proportionally */
+        display: block; /* Ensures the image behaves like a block element */
+        object-fit: cover; /* Ensure the image covers the entire area without distortion */
+        position: relative; /* Ensure relative positioning for the image */
+        overflow: hidden; /* Hide any overflow beyond the card */
+      }    
+      
+
+      /* CSS for alignment */
+      section {
+        display: flex;
+        justify-content: space-between; /* Adjust this property according to your needs */
+        margin: 0 auto; /* Centers the container horizontally */
+        max-width: 1200px; /* Optional: sets maximum width for the container */
+        padding: 20px; /* Optional: adds some padding around the container */
+      }
+    
+      .full-page {
+        flex: 1; /* Allows each card to take up equal space */
+      }
+ /*==============================================================================================*/
+ .Quote {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: linear-gradient(135deg, #bae87a, #f7a15e, #80d8ee); /* Gradient background */
+    padding: 20px; /* Add padding for spacing */
+    transition: background-image 0.3s ease; /* Smooth transition for background image */
+}
+
+/*==============================================================================================*/
+
+/*==============================================================================================*/
+
+/*==============================================================================================*/
+
+/*==============================================================================================*/
+
+/*==============================================================================================*/
+
+/*==============================================================================================*/
+
+/*==============================================================================================*/
