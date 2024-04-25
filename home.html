@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>eBidding Homepage</title>
     <link rel="stylesheet" href="home.css">
-    <script src="index.js"></script>
 </head>
-
-<body id ="home">
+<body id="home">
     <header>
         <h1>CNAAP</h1>
         <nav>
@@ -17,148 +16,167 @@
             <a href="#howitworks">How It Works</a>
             <a href="#categories">Categories</a>
             <a href="#faq">FAQ</a>
-            <a href="#contact">Contact Us</a>    
+            <a href="#contact">Contact Us</a>
+    
+            <a style="float: right; margin-right: 20px;" id="logout" 
+            href="sessionclose.php">Logout</a>
+
         </nav>
     </header>
 
-    <div style = "display : flex; justify-content: center; align-items: center; margin-top: 25px; margin-bottom: 25px;">
-    <div class="searchBox">
-        <input class="searchInput" type="text" name="" placeholder="Search something">
-        <button class="searchButton" href="#">
-               
-    <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none">
-        <g clip-path="url(#clip0_2_17)">
-            <g filter="url(#filter0_d_2_17)">
-                <path d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges"></path>
-            </g>
-        </g>
-        <defs>
-            <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139" height="29.7139" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
-                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
-                <feOffset dy="4"></feOffset>
-                <feGaussianBlur stdDeviation="2"></feGaussianBlur>
-                <feComposite in2="hardAlpha" operator="out"></feComposite>
-                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
-                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2_17"></feBlend>
-                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17" result="shape"></feBlend>
-            </filter>
-            <clipPath id="clip0_2_17">
-                <rect width="28.0702" height="28.0702" fill="white" transform="translate(0.403503 0.526367)"></rect>
-            </clipPath>
-        </defs>
-    </svg>
-        </button>
-    </div>
-    </div>
-
-    <section style = "background-image: url(assests/backgrounds/img2.jpg);">   
+    <section style="background-image: url(assests/backgrounds/img2.jpg);">
         <div class="full-page">
-          <div class="card">
-            <img src="assests/bid items/perfume_215000 doll.jpg" class="card-image" alt="perfume">
-            <div class="card__content">
-              <p class="card__title">The Imperial Majesty</p>
-              <p class="card__description">The Imperial Majesty is part of the limited series from the collection.
-                Clive Christian, perfumer, and in the past a famous designer. 
-                delivered in a beautiful bottle of Baccarat crystal with a neck of 18-carat gold, decorated with a diamond of 5 carats, which explains the high cost.
-              </p>
-              <p class="card__description">Highest Bid: $ 215,000 million</p>
+            <div class="card">
+                <img src="assests/bid items/perfume_215000 doll.jpg" class="card-image" alt="perfume">
+                <div class="card__content">
+                    <p class="card__title">The Imperial Majesty</p>
+                    <p class="card__description">The Imperial Majesty is part of the limited series from the collection.
+                        Clive Christian, perfumer, and in the past a famous designer.
+                        delivered in a beautiful bottle of Baccarat crystal with a neck of 18-carat gold, decorated with
+                        a diamond of 5 carats, which explains the high cost.
+                    </p>
+                    <p class="card__description">Highest Bid: $ 215,000 million</p>
+                </div>
             </div>
-          </div>
         </div>
+
 
         <div class="full-page">
             <div class="card">
-              <img src="assests/bid items/bottle of tequile   3.5 mill doll.jpg" alt="Bottle of Tequila">
-              <div class="card__content">
-                <p class="card__title">Bottle of Tequila</p>
-                <p class="card__description">Behold, an extraordinary specimen of Mexican craftsmanship - the illustrious Bottle of Tequila. Crafted under the meticulous eye of actor-turned-designer, Fernando Altamirano, this ornate vessel isn't just a container for spirits; it's a masterpiece of artistry and opulence.</p>
-                <p class="card__description">Highest Bid: $ 3.5 million</p>
-              </div>
+                <img src="assests/bid items/bottle of tequile   3.5 mill doll.jpg" alt="Bottle of Tequila">
+                <div class="card__content">
+                    <p class="card__title">Bottle of Tequila</p>
+                    <p class="card__description">Behold, an extraordinary specimen of Mexican craftsmanship - the
+                        illustrious Bottle of Tequila. Crafted under the meticulous eye of actor-turned-designer,
+                        Fernando Altamirano, this ornate vessel isn't just a container for spirits; it's a masterpiece
+                        of artistry and opulence.</p>
+                    <p class="card__description">Highest Bid: $ 3.5 million</p>
+                </div>
             </div>
         </div>
 
         <div class="full-page">
             <div class="card">
-              <img src="assests/bid items/2.27 mill.jpg" class = "card-image" alt="TV">
-              <div class="card__content">
-                <p class="card__title">Prestige HD Supreme Rose Edition </p>
-                <p class="card__description">The Prestige HD Supreme Rose Edition is made of 19 kg of 22-carat gold, has hand-made crocodile leather inserts and is encrusted with 48 round cut diamonds.</p>
-                <p class="card__description">Highest Bid: $ 1.5  million</p>
-              </div>
+                <img src="assests/bid items/2.27 mill.jpg" class="card-image" alt="TV">
+                <div class="card__content">
+                    <p class="card__title">Prestige HD Supreme Rose Edition </p>
+                    <p class="card__description">The Prestige HD Supreme Rose Edition is made of 19 kg of 22-carat gold,
+                        has hand-made crocodile leather inserts and is encrusted with 48 round cut diamonds.</p>
+                    <p class="card__description">Highest Bid: $ 1.5 million</p>
+                </div>
             </div>
         </div>
-
-        <a href="bidlist.html" style = "
-            top: 10px;
-            right: 10px;
-            text-decoration: none;
-            color: greenyellow;
-            font-weight: bold;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            ">more..
-        </a>  
     </section>
     <br><br>
-    
+
     <div class="Quote">
-        <p>Unlock boundless opportunities at the click of a button with eBidding,  <br>
+        <p>Unlock boundless opportunities at the click of a button with eBidding, <br>
             where every bid is a gateway to a world of possibilities</p>
     </div>
 
-    <section>
-        <div id="howitworks" class="how-it-works-container">
-            <div class="how-it-works">
-                <h2>How It Works</h2>
-                <p>Explain the process of how bidding works on your platform.
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                     Nullam nec elit at justo accumsan tincidunt. Vestibulum at tortor 
-                     at velit vestibulum finibus. Sed ut efficitur felis. 
-                     Nullam id mauris diam. Morbi ullamcorper eros in lacus accumsan mollis.</p>
+    <section id="categories">
+        <div class="cateogaries">
+            <div class="cateogary">
+                <h3>CARS</h3>
+                <a href="bidlist.html">
+                    <img src="assests/bid items/car.jpg" alt="">
+                </a>
+            </div>
+            <div class="cateogary">
+                <h3>FASHION</h3>
+                <a href="bidlist.html">
+                    <img src="assests/bid items/shoe_3500doll.jpg" alt="">
+                </a>
+            </div>
+            <div class="cateogary">
+                <h3>ANTIC PIECES</h3>
+                <a href="bidlist.html">
+                    <img src="assests/bid items/old_cup.jpg" alt="">
+                </a>
+            </div>
+            <div class="cateogary">
+                <h3>JEWELLERY</h3>
+                <a href="bidlist.html">
+                    <img src="assests/bid items/gold_bag.jpg" alt="">
+                </a>
+            </div>
+        </div>
+        <a href="bidlist.html" style="
+            top: 10px;
+            right: 10px;
+            text-decoration: none;
+            color: rgb(218, 14, 7);
+            font-weight: bold;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            ">more..
+        </a>
+    </section>
+
+    <section id="faq">
+        <div class="faq-container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>What is eBidding?</h3>
+                <p>eBidding is an online auction system where buyers can bid on products or services, competing with
+                    other users to win the auction.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How do I place a bid?</h3>
+                <p>You can place a bid by clicking the 'Place Bid' button next to the item you're interested in. Enter
+                    your bid amount and confirm your bid.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How do I know if my bid is successful?</h3>
+                <p>You will receive a notification if you win an auction. You can also check your bidding status in your
+                    account dashboard.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What are the payment options available?</h3>
+                <p>We accept various payment methods such as credit/debit cards, PayPal, and bank transfers. You can
+                    choose your preferred option during checkout.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Can I cancel my bid?</h3>
+                <p>Bids cannot be canceled once placed. Please double-check your bid amount and ensure you want to bid
+                    before confirming.</p>
             </div>
         </div>
     </section>
-    
-    <section>
-        <div id ="categories" class="categories-container">
-            <div class="categories">
-                <h2>Categories</h2>
-                <div class="category">
-                    <img src="https://via.placeholder.com/100" alt="Category Image">
-                    <h3>Category Name</h3>
+
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! If you have any questions or feedback, please reach out to us using the form
+                below:</p>
+            <form action="mailto:contact@cnaap.com" method="POST" enctype="text/plain">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
                 </div>
-                <!-- Repeat this block for other categories -->
-            </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Your message" required></textarea>
+                </div>
+                <button type="submit" class="contact-button">Send Message</button>
+            </form>
         </div>
     </section>
 
-    <section>
-        <div class="benefits-container">
-            <div class="benefits">
-                <h2>Benefits of Using Our Platform</h2>
-                <p>Discover the advantages of using our eBidding platform. Our platform provides:</p>
-                <ul>
-                    <li>Efficient and transparent bidding process</li>
-                    <li>Wide range of auction categories</li>
-                    <li>Secure payment options</li>
-                    <li>Real-time updates on auction status</li>
-                    <li>Access to a global network of buyers and sellers</li>
-                </ul>
-            </div>
-        </div>
-    </section>
 
-    <section>
-        <footer class="site-footer">
-            <div class="footer-content">
-                <p class="copyright">Copyright © 2024 CNAAP. All rights reserved.</p>
-                <nav class="footer-nav">
-                    <a href="#">Terms of Service</a>
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Contact Us</a>
-                </nav>
-            </div>
-        </footer>   
-    </section>
+    <footer>
+        <div class="footer-container">
+            <p class="footer-copyright">Copyright © 2024 CNAAP. All rights reserved.</p>
+            <nav class="footer-nav">
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+            </nav>
+        </div>
+    </footer>
+
 </body>
+
 </html>
